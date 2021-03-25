@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
-import { AppBar } from './components';
+import { AppBar, Dashboard } from './components';
 
 const App: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const App: React.FC = () => {
           display: 'flex',
         }}
       >
-        CSV Loading.....
+         <Dashboard />
       </Box>
     </Box>
   );
