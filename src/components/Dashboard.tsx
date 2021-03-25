@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import CircularProgress from '@material-ui/core/CircularProgress';
-import { Box, Fade } from "@material-ui/core"
+import { Box } from "@material-ui/core"
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -91,14 +91,12 @@ export const Dashboard: React.FC = (): JSX.Element => {
             <Grid item xs={12}>
               <Typography variant="h4" gutterBottom>
                 CSV Numbers Formula Solver
-          </Typography>
+            </Typography>
             </Grid>
-            {!currentState.numbers?.length && (
-              <Grid item xs={12}>
-                <FileReader onFileRead={onFileReadHandler} />
-              </Grid>
-            )}
-            {currentState.numbers?.length && (
+            <Grid item xs={12}>
+              <FileReader onFileRead={onFileReadHandler} />
+            </Grid>
+            {currentState.numbers?.length > 0 && (
               <>
                 <Grid item xs={12} sm={6}>
                   <Paper className={classes.paper} elevation={3}>
