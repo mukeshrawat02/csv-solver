@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# InTech Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem Statement
 
-## Available Scripts
+Use your initiative and solve it in the best way you think you can. The idea is to demonstrate your skills by building a small application (using React) which produces a target figure from a CSV file containing several numbers.
 
-In the project directory, you can run:
+Create a CSV file with the following numbers: 3, 4, 8, 7, 12
 
-### `yarn start`
+The target number is 532 but should be allowed to change.
+- You may only use (),+,-,*,/
+- You can use each symbol many times
+- You can only use each number once
+- You do not need to use all the numbers 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The app must be able to handle the file upload and temporary storage of the CSV file.
+It must parse the CSV to extract the numbers.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You need to build a processor to take the numbers and calculate the equation to the target number from them.
+When we come to test this, we will also use different numbers to check the process.
