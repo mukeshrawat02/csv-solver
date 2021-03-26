@@ -17,3 +17,27 @@ It must parse the CSV to extract the numbers.
 
 You need to build a processor to take the numbers and calculate the equation to the target number from them.
 When we come to test this, we will also use different numbers to check the process.
+
+
+## What you get
+
+* React 17.0.2
+* TypeScript 4.2
+* Jest for testing with mocking examples using [@testing-library](https://testing-library.com/docs/)
+* Material UI ([feature/material-ui](https://github.com/badsyntax/react-seed/tree/feature/material-ui))
+
+## Getting started
+
+### Installing with git
+
+```bash
+git clone https://github.com/mukeshrawat02/csv-solver.git my-project
+```
+
+## npm scripts
+
+* `yarn start` - Build and start the app in dev mode at http://localhost:3000
+* `yarn test` - Run the tests
+
+## Screenshot
+![InTech Dashboard](/sample-file/InTech%20Test%20Screen.png)
