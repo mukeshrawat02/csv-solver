@@ -34,10 +34,12 @@ When we come to test this, we will also use different numbers to check the proce
 git clone https://github.com/mukeshrawat02/csv-solver.git my-project
 ```
 
-## npm scripts
+## yarn scripts
 
 * `yarn start` - Build and start the app in dev mode at http://localhost:3000
 * `yarn test` - Run the tests
 
 ## Screenshot
 ![InTech Dashboard](/sample-file/InTech%20Test%20Screen.png)
+
+![Test cases](/sample-file/test-cases.png)
