@@ -1,4 +1,3 @@
-# InTech Test
 
 ## Problem Statement
 
